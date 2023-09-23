@@ -10,10 +10,34 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    /* --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0; */
+
+    /* this was messing w me when i 
+    transferred from windows to mac bc mac set on dark mode */
   }
+}
+.link {
+  position: relative;
+  overflow: hidden;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px; /* Adjust the height of the underline */
+  bottom: 0;
+  left: 0;
+  background-color: currentColor;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover::before {
+  visibility: visible;
+  width: 100%;
 }
 
 body {
