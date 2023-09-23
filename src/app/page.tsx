@@ -6,6 +6,9 @@ import Navbar from './components/Navbar'
 import Description from './Description'
 import Experience from './Experience'
 import Arrow from './components/Arrow'
+import { ExperienceEntryProps } from './components/ExperienceEntry'
+
+
 
 export default function Home() {
   return (
