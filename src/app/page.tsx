@@ -7,6 +7,7 @@ import Experience from './Experience'
 import Arrow from './components/Arrow'
 import { ExperienceEntryProps } from './components/ExperienceEntry'
 import Takeaways from './components/Takeaways'
+import CultureValues from './components/CultureValues'
 
 
 
@@ -44,10 +45,9 @@ export default function Home() {
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
         <Experience />
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
-
         <Takeaways />
-
-        {/* <AboutMe className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left"></AboutMe> */}
+        <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
+        <CultureValues />
 
         <NextJS className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left"></NextJS>
 

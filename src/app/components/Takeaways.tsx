@@ -24,6 +24,17 @@ const takeaways: TakeawayProps[] = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: "ajit.jpg",
     },
+    {
+        title: "LESSON #4",
+        subtitle: "A LAYMAN PASSIONATE FOR FOOD",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imageUrl: "ajit.jpg",
+    }, {
+        title: "LESSON #5",
+        subtitle: "A LAYMAN PASSIONATE FOR FOOD",
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imageUrl: "ajit.jpg",
+    },
 
 
     // Add more takeaways as needed
