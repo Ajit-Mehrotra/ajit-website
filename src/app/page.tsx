@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Button from './components/Button'
 import NextJS from './Nextjs'
-import AboutMe from './AboutMe'
 import Navbar from './components/Navbar'
 import Description from './Description'
 import Experience from './Experience'
 import Arrow from './components/Arrow'
 import { ExperienceEntryProps } from './components/ExperienceEntry'
+import Takeaways from './components/Takeaways'
 
 
 
@@ -41,9 +41,14 @@ export default function Home() {
         </div>
 
         {/* left off here */}
-        <Arrow />
+        <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
         <Experience />
-        <AboutMe className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left"></AboutMe>
+        <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
+
+        <Takeaways />
+
+        {/* <AboutMe className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left"></AboutMe> */}
+
         <NextJS className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left"></NextJS>
 
       </main>

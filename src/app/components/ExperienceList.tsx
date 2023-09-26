@@ -15,7 +15,7 @@ const ExperienceList: React.FC<{ experiences: ExperienceEntryProps[] }> = ({ exp
     };
 
     return (
-        <div className='relative'>
+        <div className=''>
             <div className="my-4 ">
                 {experiences.map((experience, index) => (
                     <ExperienceEntry

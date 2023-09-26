@@ -10,6 +10,7 @@ export interface ExperienceEntryProps {
     briefDescription: string;
     fullDescription: string;
     imageUrl: string;
+    experienceType?: string;
 
     isExpanded?: boolean;
     onExpand?: () => void;
@@ -31,6 +32,7 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
     onExpand,
     onNavigate,
     isHighlighted = false,
+    experienceType,
     experiences,
     currentIndex, // Receive currentIndex as prop
     setCurrentIndex, // Receive setCurrentIndex as prop
@@ -46,7 +48,7 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 
 
     return (
-        <div className={`my-4 transition-colors duration-300 ease-in-out ${!isHighlighted && isExpanded ? 'bg-yellow-200' : ''}`}>
+        <div className={`my-4 transition-colors duration-300 ease-in-out hover:bg-yellow-200 p-5 rounded-lg ${!isHighlighted && isExpanded ? 'bg-yellow-200' : ''}`}>
             <div className="flex justify-between items-center">
                 <div>
                     <h3 className="text-lg font-semibold">{role}</h3>
@@ -68,7 +70,7 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
                 <div onClick={closeModal} className="fixed inset-0 bg-gray-900 bg-opacity-50 flex justify-center items-center">
 
 
-                    <div className="bg-white p-8 rounded-lg max-w-2xl w-full relative">
+                    <div className="bg-white p-8 rounded-lg max-w-2xl w-full relative   ">
                         <button
                             className="absolute top-2 right-2 text-black focus:outline-none z-10 block transition-transform duration-300 hover:rotate-180"
                             onClick={onExpand}
@@ -111,7 +113,8 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 
 
                         {experiences && (
-                            <div className="w-64 bg-gray-100 p-4 overflow-y-auto fixed left-0 top-1/2 transform -translate-y-1/2 z-10 lg:block hidden">
+                            <div className="w-64 bg-gray-100 p-4 overflow-y-auto fixed left-0 top-1/2 transform -translate-y-1/2 z-10 xl:block hidden rounded-r-lg">
+                                <h1 className='uppercase text-center font-bold'>{experienceType} experience</h1>
                                 {experiences.map((experience, index) => (
                                     <div
                                         key={index}
