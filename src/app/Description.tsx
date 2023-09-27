@@ -5,7 +5,7 @@ function Description() {
     return (
         <div>
 
-            <p className="sm:px-[4rem] md:px-[6rem] lg:px-[20rem] sm:pt-[1rem] py-[2rem]">
+            <p className="px-[4rem] md:px-[6rem] lg:px-[20rem] sm:pt-[1rem] py-[2rem]">
                 I'm a senior at{" "}
                 <LinkComponent href="https://www.bentley.edu/">
                     Bentley University

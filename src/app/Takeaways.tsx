@@ -1,4 +1,4 @@
-import Arrow from "./Arrow";
+import Arrow from "./components/Arrow";
 
 interface TakeawayProps {
     title: string;
@@ -63,7 +63,7 @@ function Takeaways() {
             </div> */}
 
 
-            <h1 className=" text-center font-bold mb-6 sm:text-5xl md:text-6xl lg:text-7xl pb-[4rem]">Key Takeaways from Experience</h1>
+            <h1 className=" text-center font-bold mb-6 text-4xl sm:text-5xl md:text-6xl lg:text-7xl pb-[4rem]">Key Takeaways from Experience</h1>
             {/* <Arrow padding="py-[2rem]" color="text-gray-400" width={2} /> */}
             <div className="flex flex-wrap p-8 justify-center md:justify-start md:flex-row">
                 {takeaways.map((takeaway, index) => (

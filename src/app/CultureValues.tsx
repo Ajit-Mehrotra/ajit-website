@@ -34,9 +34,9 @@ const valuesData = [
 
 const CultureValues: React.FC = () => {
     return (
-        <div>
-            <h1 className=" text-center font-bold mb-6 sm:text-5xl md:text-6xl lg:text-7xl">My Culture & Values</h1>
-            <div className="flex flex-col xl:flex-row h-[150vh] overflow-hidden p-[8rem]">
+        <div className="mx-[10rem] mb-[10rem]">
+            <h1 className=" text-center font-bold mb-[4rem] text-5xl md:text-6xl lg:text-7xl">My Culture & Values</h1>
+            <div className="flex flex-col xl:flex-row h-[150vh] overflow-hidden">
                 <div className="bg-yellow-300 w-full xl:w-1/2 flex flex-col items-center justify-center p-8">
                     <h1 className="text-4xl text-center md:text-6xl font-bold mb-8">What I Value</h1>
 
@@ -57,7 +57,7 @@ const CultureValues: React.FC = () => {
 
                     </div>
                 </div>
-                <div className="w-full xl:w-1/2 overflow-y-auto p-8">
+                <div className="w-full xl:w-1/2 overflow-y-scroll p-8">
                     {valuesData.map((value, index) => (
                         <div key={index} className="flex items-start mb-8">
                             <img src={value.imageUrl} alt={value.title} className="w-24 h-24 mr-6" />

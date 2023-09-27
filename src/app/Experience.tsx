@@ -1,8 +1,9 @@
 "use client";
+import { title } from "process";
 import ExperienceEntry, { ExperienceEntryProps } from "./components/ExperienceEntry";
 import ExperienceList from "./components/ExperienceList";
 import Project from "./components/Project";
-import Skills from "./components/Skills";
+import Skills from "./Skills";
 
 
 const leadershipExperiences: ExperienceEntryProps[] = [
@@ -95,26 +96,34 @@ const projectExperiences: ExperienceEntryProps[] = [
     },
 ];
 
-const tech_skills = [
-    'Python',
-    'Java',
-    'SQL',
-    'JavaScript',
-    'TypeScript',
-    'React.js',
-    'Next.js',
-    'Node.js',
-    'Tailwind CSS',
+const tech_skills: Skills[] = [
+    { name: 'Python', level: 80 },
+    { name: 'Java', level: 70 },
+    { name: 'SQL', level: 75 },
+    { name: 'JavaScript', level: 85 },
+    { name: 'TypeScript', level: 80 },
+    { name: 'React.js', level: 85 },
+    { name: 'Next.js', level: 80 },
+    { name: 'Node.js', level: 75 },
+    { name: 'Tailwind CSS', level: 70 },
 ];
-const leadership_skills = [
-    'Critical and Strategic Thinking', 'Inclusivity', 'Communication', 'Adaptability', 'Agile Methodologies', 'Listening',
+const leadership_skills: Skills[] = [
+    {
+        name: 'Critical and Strategic Thinking',
+        level: 70
+    },
+    { name: 'Inclusivity', level: 80 },
+    { name: 'Communication', level: 90 },
+    { name: 'Adaptability', level: 80 },
+    { name: 'Agile Methodologies', level: 80 },
+    { name: 'Listening', level: 90 },
 ];
 
 function Experience() {
 
     return (
         <div>
-            <h1 className=" text-center font-bold mb-6 sm:text-5xl md:text-6xl lg:text-7xl">My Experience</h1>
+            <h1 className=" text-center font-bold mb-6 text-5xl md:text-6xl lg:text-7xl">My Experience</h1>
 
             <div className=" w-full mx-auto p-8 flex flex-col xl:flex-row justify-around space-y-8 md:space-y-0 md:space-x-8  transition-all duration-300">
 
