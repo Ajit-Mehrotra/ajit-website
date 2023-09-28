@@ -9,6 +9,7 @@ import { ExperienceEntryProps } from './components/ExperienceEntry'
 import Takeaways from './Takeaways'
 import CultureValues from './CultureValues'
 import HobbiesSection from './Hobbies'
+import ContactMe from './ContactMe'
 
 
 
@@ -51,8 +52,8 @@ export default function Home() {
         <CultureValues />
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
         <HobbiesSection />
-
-        <NextJS className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left"></NextJS>
+        <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
+        <ContactMe />
 
       </main>
     </div>
