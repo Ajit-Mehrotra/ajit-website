@@ -1,6 +1,7 @@
 // components/CultureValuesSection.tsx
 //import { valuesData } from '../data/values';
 
+import Image from "next/image";
 import Button from "./components/Button";
 import LinkComponent from "./components/LinkComponent";
 
@@ -32,7 +33,7 @@ const ContactMe: React.FC = () => {
 
                 </div>
                 <div className="w-full xl:w-1/2 ">
-                    <img src="ajit.jpg" alt="Your Name" className="w-full h-64 md:h-auto object-cover rounded-lg shadow-md" />
+                    <Image src="ajit.jpg" alt="Your Name" className="w-full h-64 md:h-auto object-cover rounded-lg shadow-md" />
                 </div>
             </div>
         </div>

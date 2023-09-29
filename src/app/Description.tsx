@@ -6,7 +6,7 @@ function Description() {
         <div>
 
             <p className="px-[4rem] md:px-[6rem] lg:px-[20rem] sm:pt-[1rem] py-[2rem]">
-                I'm a senior at{" "}
+                I&apos;m a senior at{" "}
                 <LinkComponent href="https://www.bentley.edu/">
                     Bentley University
                 </LinkComponent>{" "}
@@ -18,7 +18,7 @@ function Description() {
                 in Singpaore.
                 <br />
                 <br />
-                In the past, I've worked at 3 startups. One for a software development
+                In the past, I&apos;ve worked at 3 startups. One for a software development
                 internship, and the other two I helped found. All three startups failed,
                 but I learned so much and met some really cool people!
                 <br />

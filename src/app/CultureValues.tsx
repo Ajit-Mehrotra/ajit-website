@@ -1,32 +1,39 @@
 // components/CultureValuesSection.tsx
 //import { valuesData } from '../data/values';
 
+import Image from "next/image";
+
 // data/values.ts
 const valuesData = [
     {
         title: "Integrity",
         description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: "ajit.jpg",
+        key: 1,
     },
     {
         title: "Integrity",
         description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: "/path/to/integrity.svg",
+        key: 2,
     },
     {
         title: "Integrity",
         description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: "/path/to/integrity.svg",
+        key: 3,
     },
     {
         title: "Integrity",
         description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: "/path/to/integrity.svg",
+        key: 4,
     },
     {
         title: "Integrity",
         description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         imageUrl: "/path/to/integrity.svg",
+        key: 5,
     },
     // ... add more values as needed
 ];
@@ -41,11 +48,11 @@ const CultureValues: React.FC = () => {
                     <h1 className="text-4xl text-center md:text-6xl font-bold mb-8">What I Value</h1>
 
                     {valuesData.map((value, index) => (
-                        <h1 className="mb-2">{index + 1}. {value.title}</h1>
+                        <h1 className="mb-2" key={index}>{index + 1}. {value.title}</h1>
                     ))}
 
                     <div className="flex items-center pt-8 space-x-4">
-                        <p>Here's how I think!</p>
+                        <p>Here&apos;s how I think!</p>
                         {/* Right arrow for lg screens and larger */}
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="hidden xl:block h-10 w-10 text-gray-700">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
@@ -60,7 +67,7 @@ const CultureValues: React.FC = () => {
                 <div className="w-full xl:w-1/2 overflow-y-scroll p-8">
                     {valuesData.map((value, index) => (
                         <div key={index} className="flex items-start mb-8">
-                            <img src={value.imageUrl} alt={value.title} className="w-24 h-24 mr-6" />
+                            <Image src={value.imageUrl} alt={value.title} className="w-24 h-24 mr-6" />
                             <div>
                                 <h2 className="text-xl font-bold mb-4">{value.title}</h2>
                                 <p className="mb-4">{value.description}</p>

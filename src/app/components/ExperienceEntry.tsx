@@ -1,6 +1,7 @@
 // components/ExperienceEntry.tsx
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
+import Image from 'next/image';
 
 
 export interface ExperienceEntryProps {
@@ -79,7 +80,7 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
-                        <img src={imageUrl} alt={role} className="w-full h-64 object-cover rounded-md" />
+                        <Image src={imageUrl} alt={role} className="w-full h-64 object-cover rounded-md" />
                         <h3 className="mt-4 text-lg font-semibold">{role}</h3>
                         <p className="text-gray-600">{company}</p>
                         <p className="text-gray-500">{timeframe}</p>
