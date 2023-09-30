@@ -15,7 +15,7 @@ const hobbies: Hobby[] = [
         name: 'Gaming',
         subtitle: 'I will skip class to play',
         description: 'I got 2000+ hours in Rocket League',
-        fullDescription: "I play a bunch of games. I've played a lot of games. I currently play Rocket League, Apex Legends, Valorant, CSGO, and Fortnite. But I've played games like Minecraft, GTA, COD, FIFA, etc. before as well. Peak Rank in Rocket League is Champion 3, but in my head, I'm Grand Champion. Current rank is Champion 2. I suck at Valorant & CSGO, but still play it. I hate Fortnite but still play it. I love Apex Legends though. That game is amazing. So much fun to play with friends!  I'll add my real-time rank here soon.",
+        fullDescription: `I play a bunch of games. I've played a lot of games. I currently play Rocket League, Apex Legends, Valorant, CSGO, and Fortnite. But I've played games like Minecraft, GTA, COD, FIFA, etc. before as well. Peak Rank in Rocket League is Champion 3, but in my head, I'm Grand Champion. Current rank is Champion 2. I suck at Valorant & CSGO, but still play it. I hate Fortnite but still play it. I love Apex Legends though. That game is amazing. So much fun to play with friends!  I'll add my real-time rank here soon.`,
         imageUrl: "/ajit.jpg",
     },
     {
@@ -29,7 +29,7 @@ const hobbies: Hobby[] = [
         name: 'Traveling',
         subtitle: 'this is a lie',
         description: `it's too much effort fr`,
-        fullDescription: "I'd stay in my room all day if I could.",
+        fullDescription: `I'd stay in my room all day if I could.`,
         imageUrl: '/ajit.jpg',
     },
 
@@ -37,7 +37,7 @@ const hobbies: Hobby[] = [
         name: 'Cooking',
         subtitle: 'also a lie - so much effort',
         description: 'I am vegetarian. I cook out of desperation',
-        fullDescription: "It might be a lot of effort, but apprently, I happen to be good at it (if I strictly follow mom's reciepe). I make a lot of Indian food cause Indians have been vegetarians for thousands of years and have perfected the craft. ",
+        fullDescription: `It might be a lot of effort, but apprently, I happen to be good at it (if I strictly follow mom's reciepe). I make a lot of Indian food cause Indians have been vegetarians for thousands of years and have perfected the craft. `,
         imageUrl: '/ajit.jpg',
     },
     // ... add more hobbies as needed
@@ -47,7 +47,7 @@ const HobbiesSection: React.FC = () => {
     return (
         <div className=" bg-yellow-300 py-[4rem] w-full  " id='hobbies'>
             <h1 className=" text-center font-bold mb-6 text-5xl md:text-6xl lg:text-7xl ">My Hobbies</h1>
-            <p className="mt-4 text-center ">The best way to waste time. I'm also learning crocheting. Check out my hobbies below! </p>
+            <p className="mt-4 text-center ">The best way to waste time. I&apos;m also learning crocheting. Check out my hobbies below! </p>
             <div className="flex-col space-y-20">
                 {hobbies.map((hobby, index) => (
                     <div key={index} className="px-[2rem] md:px-[6rem] lg:px-[10rem]">

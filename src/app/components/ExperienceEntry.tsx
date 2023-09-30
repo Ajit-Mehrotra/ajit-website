@@ -90,8 +90,8 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
                             <p className="text-gray-600">{company}</p>
                             <p className="text-gray-500">{timeframe}</p>
                             {fullDescription.map((experience, index) => (
-                                <div>
-                                    <p key={index} className="mt-2 text-gray-700">{experience}</p>
+                                <div key={index}>
+                                    <p className="mt-2 text-gray-700">{experience}</p>
                                 </div>
                             ))}
                             {experienceType === "other" && githubUrl && (
