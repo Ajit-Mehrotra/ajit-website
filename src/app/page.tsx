@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Button from './components/Button'
-import NextJS from './Nextjs'
 import Navbar from './components/Navbar'
 import Description from './Description'
 import Experience from './Experience'
@@ -19,7 +18,7 @@ export default function Home() {
       <Navbar />
 
       <main className="flex min-h-screen flex-col items-center justify-between ">
-        <h1>If you&apos;re reading this, the website is still under construction and will be done within 24 hrs (you can still check it out, but it&apos;s not good lol)</h1>
+        <h1>Website is done except the pictures. If you see this message. Please hire me. </h1>
         <div className="flex place-items-center ">
           <Image
             className="rounded-full w-[15rem] md:w-[20rem] lg:w-[35rem] py-[1rem]"

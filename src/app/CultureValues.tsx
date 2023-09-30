@@ -6,32 +6,33 @@ import Image from "next/image";
 // data/values.ts
 const valuesData = [
     {
-        title: "Caring People",
-        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "Care & Compassion",
+        description: "There's nobody I'd rather work for or work with.  ",
         imageUrl: "/number-1.png",
         key: 1,
     },
     {
-        title: "Trusting People",
-        description: "  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "Trusting Team",
+        description: "We succeed together, fail, and learn together. You teach me, I teach you. You grow, I grow. We are groot moment fr.",
         imageUrl: "/number-2.png",
         key: 2,
     },
+
     {
-        title: "Team-Players",
-        description: "] lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "Humble People",
+        description: "People who are willing to admit when they don't know something, and are willing to learn. Humbleness is a foundation for trust.",
         imageUrl: "/number-3.png",
         key: 3,
     },
     {
-        title: "Humble People",
-        description: " lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "Positivity",
+        description: "I mess up so often that my body forced me to be positive as a survival mechanism. I like people around me being positive as well.Positivity makes everyone happy and less stressed in stressful situations.",
         imageUrl: "/number-4.png",
         key: 4,
     },
     {
-        title: "Positivity",
-        description: " lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title: "Sleep, Water, and Food",
+        description: "You'll get my best work when I'm well-rested, hydrated, and fed. I'll do my best to make sure you are too. ",
         imageUrl: "/number-5.png",
         key: 5,
     },
