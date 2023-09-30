@@ -172,7 +172,7 @@ function Experience() {
                     <ExperienceList experiences={projectExperiences} />
                 </div>
             </div>
-            <p>bug here I'm aware. will fix tomorrow.</p>
+            <p>bug here I&apos;m aware. will fix tomorrow.</p>
             <Skills title="Tech Skills" skills={tech_skills} />
             <Skills title="Leadership Skills" skills={leadership_skills} />
 
