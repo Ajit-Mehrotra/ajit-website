@@ -15,23 +15,23 @@ function Navbar() {
                         <div>
                             <Link className="flex items-center py-4 px-2" href="/">
 
-                                <span className="font-semibold text-gray-500 text-lg">Ajit Mehrotra</span>
+                                <span className="font-semibold text-gray-500 text-lg ">Ajit Mehrotra</span>
                             </Link>
                         </div>
                         <div className="hidden md:flex items-center space-x-1">
-                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/contact">
+                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="#experience">
                                 Experience
                             </Link>
-                            <Link href="/about" className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300">
+                            <Link href="#takeaways" className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300">
                                 Takeaways
                             </Link>
-                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/contact">
+                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="#values">
                                 Values
                             </Link>
-                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/projects">
+                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="#hobbies">
                                 Hobbies
                             </Link>
-                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/contact">
+                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="#contact">
                                 Contact
                             </Link>
                         </div>

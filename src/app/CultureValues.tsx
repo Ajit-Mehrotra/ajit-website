@@ -6,33 +6,33 @@ import Image from "next/image";
 // data/values.ts
 const valuesData = [
     {
-        title: "Integrity",
-        description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        imageUrl: "ajit.jpg",
+        title: "Caring People",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imageUrl: "/number-1.png",
         key: 1,
     },
     {
-        title: "Integrity",
-        description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        imageUrl: "/path/to/integrity.svg",
+        title: "Trusting People",
+        description: "  lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imageUrl: "/number-2.png",
         key: 2,
     },
     {
-        title: "Integrity",
-        description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        imageUrl: "/path/to/integrity.svg",
+        title: "Team-Players",
+        description: "] lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imageUrl: "/number-3.png",
         key: 3,
     },
     {
-        title: "Integrity",
-        description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        imageUrl: "/path/to/integrity.svg",
+        title: "Humble People",
+        description: " lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imageUrl: "/number-4.png",
         key: 4,
     },
     {
-        title: "Integrity",
-        description: "Acting with honesty and honor without compromising the truth. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        imageUrl: "/path/to/integrity.svg",
+        title: "Positivity",
+        description: " lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        imageUrl: "/number-5.png",
         key: 5,
     },
     // ... add more values as needed
@@ -41,7 +41,7 @@ const valuesData = [
 
 const CultureValues: React.FC = () => {
     return (
-        <div className="mx-[10rem] mb-[10rem]">
+        <div className="mx-[10rem] mb-[10rem]" id="values">
             <h1 className=" text-center font-bold mb-[4rem] text-5xl md:text-6xl lg:text-7xl">My Culture & Values</h1>
             <div className="flex flex-col xl:flex-row h-[150vh] overflow-hidden">
                 <div className="bg-yellow-300 w-full xl:w-1/2 flex flex-col items-center justify-center p-8">
@@ -67,7 +67,7 @@ const CultureValues: React.FC = () => {
                 <div className="w-full xl:w-1/2 overflow-y-scroll p-8">
                     {valuesData.map((value, index) => (
                         <div key={index} className="flex items-start mb-8">
-                            <Image src={value.imageUrl} alt={value.title} className="w-24 h-24 mr-6" />
+                            <img src={value.imageUrl} alt={value.title} className="w-24 h-24 mr-6" />
                             <div>
                                 <h2 className="text-xl font-bold mb-4">{value.title}</h2>
                                 <p className="mb-4">{value.description}</p>

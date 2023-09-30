@@ -10,36 +10,36 @@ type Hobby = {
 
 const hobbies: Hobby[] = [
     {
-        name: 'Photography',
-        description: 'Capturing moments and creating memories.',
-        imageUrl: 'ajit.jpg',
+        name: 'Gaming',
+        description: 'I got 2000+ hours in Rocket League',
+        imageUrl: "/ajit.jpg",
     },
     {
         name: 'Traveling',
         description: 'Exploring new places and experiencing diverse cultures.',
-        imageUrl: 'ajit.jpg',
+        imageUrl: '/ajit.jpg',
     },
     {
-        name: 'Photography',
-        description: 'Capturing moments and creating memories.',
-        imageUrl: 'ajit.jpg',
+        name: 'Carpentry/Blacksmithing',
+        description: 'Here is a lil hook I made',
+        imageUrl: '/ajit.jpg',
     },
     {
-        name: 'Traveling',
-        description: 'Exploring new places and experiencing diverse cultures.',
-        imageUrl: 'ajit.jpg',
+        name: 'Cooking',
+        description: 'I am vegetarian, and I love cooking and eating food.',
+        imageUrl: '/ajit.jpg',
     },
     {
-        name: 'Photography',
-        description: 'Capturing moments and creating memories.',
-        imageUrl: 'ajit.jpg',
+        name: 'Straight Vibing',
+        description: 'Nothing like spending time with friends and family',
+        imageUrl: '/ajit.jpg',
     },
     // ... add more hobbies as needed
 ];
 
 const HobbiesSection: React.FC = () => {
     return (
-        <div className=" bg-yellow-300 py-[4rem] w-full  ">
+        <div className=" bg-yellow-300 py-[4rem] w-full  " id='hobbies'>
             <h1 className=" text-center font-bold mb-6 text-5xl md:text-6xl lg:text-7xl ">My Hobbies</h1>
             <p className="mt-4 text-center ">I am the one don&apos;t weigh </p>
             <div className="flex-col space-y-20">
@@ -48,7 +48,7 @@ const HobbiesSection: React.FC = () => {
                         <h3 className="text-3xl font-semibold p-4 text-center md:text-start">{hobby.name}</h3>
                         <div className="flex flex-wrap flex-col md:flex-row justify-center items-center space-y-8 md:space-x-14 md:items-start">
                             <div className="rounded-lg overflow-hidden shadow-lg bg-white p-4 md:w-1/3">
-                                <Image src={hobby.imageUrl} alt={hobby.name} className="w-full h-48 object-cover mb-4" />
+                                <img src={hobby.imageUrl} alt={hobby.name} className="w-full h-48 object-cover mb-4" />
                                 <h3 className="text-2xl font-semibold mb-2">{hobby.name}</h3>
                                 <p>{hobby.description}</p>
                             </div>
