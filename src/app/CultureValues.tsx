@@ -7,13 +7,13 @@ import Image from "next/image";
 const valuesData = [
     {
         title: "Care & Compassion",
-        description: "There's nobody I'd rather work for or work with.  ",
+        description: "A caring person, understanding person, is a good leader and co-worker. There's nobody I'd rather work for or work with.  ",
         imageUrl: "/number-1.png",
         key: 1,
     },
     {
         title: "Trusting Team",
-        description: "We succeed together, fail, and learn together. You teach me, I teach you. You grow, I grow. We are groot moment fr.",
+        description: "We succeed together, fail, and learn together. You teach me, I teach you. You grow, I grow.",
         imageUrl: "/number-2.png",
         key: 2,
     },
@@ -26,7 +26,7 @@ const valuesData = [
     },
     {
         title: "Positivity",
-        description: "I mess up so often that my body forced me to be positive as a survival mechanism. I like people around me being positive as well.Positivity makes everyone happy and less stressed in stressful situations.",
+        description: "Positivity makes everyone happy and less stressed in stressful situations. I've become a pretty positive person in recent years, and I'm super proud of my transformation",
         imageUrl: "/number-4.png",
         key: 4,
     },
