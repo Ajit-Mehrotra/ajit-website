@@ -23,7 +23,7 @@ const hobbies: Hobby[] = [
         subtitle: 'Making stuff makes me happy',
         description: `I'm basically a professional at saying "eh good enough"`,
         fullDescription: `I've made a luxury bathroom, a basement, a deck (foundation-up), two sheds (foundation-up), a gazebo, made a bunch of oak wood slabs using an alaskan mill, a lil S-hook (see picture), and a bunch of other stuff. If I give you something I make, no matter how ass it is, it means you mean a lot to me, and I'm extremely thankful to know you :) If I haven't made anything for you yet. It's probably because I'm still working on it. BE PATIENT JEEZ this stuff takes time`,
-        imageUrl: '/blacksmithing.jpg',
+        imageUrl: '/blacksmith.jpg',
     },
     {
         name: 'Traveling',
