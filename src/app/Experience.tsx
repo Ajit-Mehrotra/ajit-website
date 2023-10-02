@@ -20,7 +20,7 @@ const leadershipExperiences: ExperienceEntryProps[] = [
         timeframe: "Jan 2022 - Aug 2023",
         briefDescription: `Was a part of the board of finance in SGA. I helped manage $2.4M and made sure the money was being spent appropriately and under regulations. I had a large part in impactful DE&I and tech initiatives across campus. Read a lil about what I did!`,
         fullDescription: [`• Spearheaded and coordinated logistics for $500,000+ tech lounge project that directly involves Bentley University Presidential`, `Cabinet, Athletics, IT, Academics, Admissions, Police, SGA, and other key stakeholders such in senior administration`, `• Audited, communicated, and approved $1.6 million in organization funds, and managed rollover funds worth additional $800,000`, `• Led, proposed, and implemented innovative projects such as Adobe CC & Canva Pro for all students to improve student life`],
-        imageUrl: "/team.jpg",
+        imageUrl: "/AIA.jpg",
         experienceType: "leadership"
     },
     {
@@ -29,7 +29,7 @@ const leadershipExperiences: ExperienceEntryProps[] = [
         timeframe: "Sept 2021 - Dec 2022",
         briefDescription: `My friend started this club on campus and brought me on the team. Together, we grew this club to one of the largest and most popular orgs on campus. Check it out!`,
         fullDescription: [`• Coordinated club marketing, advertisement, social media identity, and grew Instagram account by over 250%`, `• Launched unique event campaigns to attract new members and delegated logistics with a team of 10`],
-        imageUrl: "/team.jpg",
+        imageUrl: "/bss.png",
         experienceType: "leadership"
     },
 ];
@@ -41,7 +41,7 @@ const professionalExperiences: ExperienceEntryProps[] = [
         timeframe: "Sept 2019 - July 2020",
         briefDescription: `Book travel in a single text message. We find the lowest fares possible and split the savings (compared to Google Fights) with you. Best flight search algorithm (avg. 30x faster time-to-booking & 15% cost savings). Unfortunately, this startup failed, but I learned a lot. Check out what I did!`,
         fullDescription: [`• Developed flight ticket aggregation and web scraping API that led to a $30,000 increase in revenue in a high-growth startup`, `• Tested, reviewed, and edited CTO’s code and organized company repositories, resulting in higher quality code and more efficient`, `programming workflows`, `• Containerized 4 microservices and helped deploy to AWS connected via SQS, increasing uptime reliability from 97% to 99.99%`],
-        imageUrl: "/team.jpg",
+        imageUrl: "/flightsquad.jpeg",
         experienceType: "professional"
     },
     {
@@ -50,7 +50,7 @@ const professionalExperiences: ExperienceEntryProps[] = [
         timeframe: "Nov 2018 - Aug 2020",
         briefDescription: `Led a team of 6 to make a PC generation application that generates the optimal build for your budget, needs, and preferences.`,
         fullDescription: [`• Led and trained a 6-person team to develop, market, and release a PC part generation application for MVP launch`, `• Developed and designed a landing page using React.js and Figma, integrating Google Analytics for user tracking and insights.`, `• Integrated BestBuy, eBay, Walmart, Amazon, UserBenchMark APIs to generate 100’s of optimal PC builds based on user budget`],
-        imageUrl: "/team.jpg",
+        imageUrl: "/lusack.png",
         experienceType: "professional"
     },
     {
@@ -59,7 +59,7 @@ const professionalExperiences: ExperienceEntryProps[] = [
         timeframe: "May 2017 - March 2018",
         briefDescription: `This was basically my brother and I using our entire college savings to build cryptomining rigs when cyrpto first became a thing early in high school. Pretty sure we over 3x'd initial investment and then lost all profits when the market crashed. But it was fun losing my entire college savings I guess! `,
         fullDescription: [`• Built 12 mining rigs to mine cryptocurrency, such as Monero and Ethereum, resulting in a $12,000 increase in revenue`, `• Maintained and handled approximately $8,000 worth of mining equipment, achieving high up-time and boosting profitability.`],
-        imageUrl: "/team.jpg",
+        imageUrl: "/agnimurus.png",
         experienceType: "professional"
     },
 ];
@@ -105,7 +105,7 @@ const otherExperiences: ExperienceEntryProps[] = [{
     timeframe: "Took 1 year, but was successful",
     briefDescription: "Convinced our school to make Esports a competitive sport starting Fall 2023 while simultaneously growing the gaming org to be one of the largest organizations on campus (growth of gaming at Bentley was proof of Esports' viability at Bentley). Read more about it and checkout the presentation I made!",
     fullDescription: ["First off, thank the lord it's over. The gaming organization has been around at Bentley for 20 years, but this is the first time Esports has actually become a competitive sport. Here's what I talked about in the presentation, although, I'm not sure how much it actually helped: what is esports, why it's important to bentley, demographics & psychographics, how it works, industry overview, problem & why it's important, competitive analysis, drawbacks, maturity model, and financials. "],
-    imageUrl: "/team.jpg",
+    imageUrl: "/esports-presentation.png",
     experienceType: "other",
     githubUrl: "https://bentleyedu-my.sharepoint.com/:p:/g/personal/amehrotra_falcon_bentley_edu/Eca5md4ind1EgcfvbNucePUB4r-VGHHU0bnaE-SzdBzNIQ?e=wSB0Kv",
 
@@ -127,7 +127,7 @@ const otherExperiences: ExperienceEntryProps[] = [{
     to a discernible "technology gap."
     To bridge this gap, Bentley students propose the establishment of the Bentley Technology Lounge.
     This state-of-the-art space is designed for collaboration, exploration, and recreation. Take a deeper dive!`],
-    imageUrl: "/team.jpg",
+    imageUrl: "/tech-lounge.png",
     experienceType: "other",
     githubUrl: "https://bentleyedu-my.sharepoint.com/:u:/g/personal/amehrotra_falcon_bentley_edu/Ed5S81f9i2tDnUqFVDy1KqkBbl0nuGlCglOkwZrZE9sxRA?e=w16jng",
 

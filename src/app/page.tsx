@@ -16,9 +16,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-
       <main className="flex min-h-screen flex-col items-center justify-between ">
-        <h1>Website is done except the pictures. If you see this message. Please hire me. </h1>
         <div className="flex place-items-center ">
           <Image
             className="rounded-full w-[15rem] md:w-[20rem] lg:w-[35rem] py-[1rem]"
@@ -29,7 +27,6 @@ export default function Home() {
 
             priority
           />
-
         </div>
         <h3 className='text-sm md:text-2xl lg:text-3xl '>A LITTLE ABOUT</h3>
         <h1 className=' text-xl font-bold sm:text-4xl md:text-6xl lg:text-7xl '>AJIT MEHROTRA</h1>
@@ -54,7 +51,6 @@ export default function Home() {
         <HobbiesSection />
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
         <ContactMe />
-
       </main>
     </div>
   )
