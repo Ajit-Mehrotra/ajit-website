@@ -1,14 +1,13 @@
-import Image from 'next/image'
-import Button from './components/Button'
-import Navbar from './components/Navbar'
-import Description from './Description'
-import Experience from './Experience'
-import Arrow from './components/Arrow'
-import { ExperienceEntryProps } from './components/ExperienceEntry'
-import Takeaways from './Takeaways'
-import CultureValues from './CultureValues'
-import HobbiesSection from './Hobbies'
-import ContactMe from './ContactMe'
+
+import Button from '../src/app/components/Button'
+import Navbar from '../src/app/components/Navbar'
+import Description from '../src/app/components/landing/Description'
+import Experience from '../src/app/components/landing/Experience'
+import Arrow from '../src/app/components/Arrow'
+import Takeaways from '../src/app/components/landing/Takeaways'
+import CultureValues from '../src/app/components/landing/CultureValues'
+import HobbiesSection from '../src/app/components/landing/Hobbies'
+import ContactMe from '../src/app/components/landing/ContactMe'
 
 
 
@@ -17,19 +16,7 @@ export default function Home() {
     <div>
       <Navbar />
       <main className="flex min-h-screen flex-col items-center justify-between ">
-        <div className="flex place-items-center ">
-          <Image
-            className="rounded-full w-[15rem] md:w-[20rem] lg:w-[35rem] py-[1rem]"
-            src="/ajit.jpg"
-            alt="Ajit Picture"
-            width={1000}
-            height={1000}
 
-            priority
-          />
-        </div>
-        <h3 className='text-sm md:text-2xl lg:text-3xl '>A LITTLE ABOUT</h3>
-        <h1 className=' text-xl font-bold sm:text-4xl md:text-6xl lg:text-7xl '>AJIT MEHROTRA</h1>
         <Description />
         <div className="flex flex-wrap items-center justify-center">
           <Button title='Experience' href='#experience' />

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Arrow from "./components/Arrow";
+import Arrow from "../Arrow";
 
 interface TakeawayProps {
     title: string;

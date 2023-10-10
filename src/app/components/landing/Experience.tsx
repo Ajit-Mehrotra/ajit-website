@@ -1,6 +1,6 @@
 "use client";
-import ExperienceEntry, { ExperienceEntryProps } from "./components/ExperienceEntry";
-import ExperienceList from "./components/ExperienceList";
+import ExperienceEntry, { ExperienceEntryProps } from "./landing-subcomponents/ExperienceEntry";
+import ExperienceList from "./landing-subcomponents/ExperienceList";
 import Skills from "./Skills";
 
 

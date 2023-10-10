@@ -1,9 +1,7 @@
 // components/CultureValuesSection.tsx
 //import { valuesData } from '../data/values';
 
-import Image from "next/image";
-import Button from "./components/Button";
-import LinkComponent from "./components/LinkComponent";
+import LinkComponent from "../LinkComponent";
 
 
 const ContactMe: React.FC = () => {

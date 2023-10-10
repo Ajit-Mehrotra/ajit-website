@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Transition } from '@headlessui/react';
 import ExperienceEntry, { ExperienceEntryProps } from './ExperienceEntry'; // Import ExperienceEntry component and its props
 
 const ExperienceList: React.FC<{ experiences: ExperienceEntryProps[] }> = ({ experiences }) => {
