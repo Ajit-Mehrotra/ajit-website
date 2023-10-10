@@ -1,7 +1,6 @@
 "use client";
 import ExperienceEntry, { ExperienceEntryProps } from "./landing-subcomponents/ExperienceEntry";
 import ExperienceList from "./landing-subcomponents/ExperienceList";
-import Skills from "./Skills";
 
 
 const leadershipExperiences: ExperienceEntryProps[] = [
@@ -138,28 +137,6 @@ const otherExperiences: ExperienceEntryProps[] = [{
 
 },];
 
-const tech_skills: Skills[] = [
-    { name: 'Python', level: 80 },
-    { name: 'Java', level: 70 },
-    { name: 'SQL', level: 75 },
-    { name: 'JavaScript', level: 85 },
-    { name: 'TypeScript', level: 80 },
-    { name: 'React.js', level: 85 },
-    { name: 'Next.js', level: 80 },
-    { name: 'Node.js', level: 75 },
-    { name: 'Tailwind CSS', level: 70 },
-];
-const leadership_skills: Skills[] = [
-    {
-        name: 'Critical and Strategic Thinking',
-        level: 70
-    },
-    { name: 'Inclusivity', level: 80 },
-    { name: 'Communication', level: 90 },
-    { name: 'Adaptability', level: 80 },
-    { name: 'Agile Methodologies', level: 80 },
-    { name: 'Listening', level: 90 },
-];
 
 function Experience() {
 
@@ -189,8 +166,10 @@ function Experience() {
                     <ExperienceList experiences={otherExperiences} />
                 </div>
             </div>
-            <Skills title="Tech Skills" skills={tech_skills} />
-            <Skills title="Leadership Skills" skills={leadership_skills} />
+            <div className="p-8 ">
+                <div className="text-2xl font-light mb-4 pl-8">Tech Skills: <span className="inline-block text-sm"> Python, Java, SQL, JavaScript, TypeScript, React.js, Next.js, Node.js, Tailwind CSS </span></div>
+                <div className="text-2xl font-light mb-4 pl-8">Leadership Skills: <span className="inline-block text-sm"> Critical and Strategic Thinking, Inclusivity, Communication, Adaptability, Agile Methodologies, Listening </span></div>
+            </div>
 
         </div>
 

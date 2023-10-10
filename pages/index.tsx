@@ -1,13 +1,14 @@
 
-import Button from '../src/app/components/Button'
-import Navbar from '../src/app/components/Navbar'
-import Description from '../src/app/components/landing/Description'
-import Experience from '../src/app/components/landing/Experience'
-import Arrow from '../src/app/components/Arrow'
-import Takeaways from '../src/app/components/landing/Takeaways'
-import CultureValues from '../src/app/components/landing/CultureValues'
-import HobbiesSection from '../src/app/components/landing/Hobbies'
-import ContactMe from '../src/app/components/landing/ContactMe'
+import Button from '../components/Button'
+import Navbar from '../components/Navbar'
+import Description from '../components/landing/Description'
+import Experience from '../components/landing/Experience'
+import Arrow from '../components/Arrow'
+import Takeaways from '../components/landing/Takeaways'
+import CultureValues from '../components/landing/CultureValues'
+import HobbiesSection from '../components/me/Hobbies'
+import ContactMe from '../components/landing/ContactMe'
+import LinkComponent from '../components/LinkComponent'
 
 
 
@@ -35,7 +36,14 @@ export default function Home() {
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
         <CultureValues />
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
-        <HobbiesSection />
+
+        <a
+          href="/Me"
+          target="_blank"
+          className={`link bg-gray-200 text-black transition duration-300 hover:bg-yellow-200 hover:font-bold 1 `}
+        >
+          <h1 className=' p-4 text-xl font-light '>Check out my hobbies and interests!</h1>
+        </a>
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
         <ContactMe />
       </main>

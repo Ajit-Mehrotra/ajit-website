@@ -7,7 +7,6 @@ import LinkComponent from "../LinkComponent";
 const ContactMe: React.FC = () => {
     return (
         <div className="mx-[10rem] mb-[10rem]" id="contact">
-            <h1 className=" text-center font-bold mb-[4rem] text-5xl md:text-6xl lg:text-7xl">Get in Touch!</h1>
             <div className="flex flex-col xl:flex-row ">
                 <div className=" w-full xl:w-1/2 flex flex-col space-y-4 p-8">
                     <h1 className="text-4xl text-center md:text-6xl font-bold mb-8">Contact Me!</h1>

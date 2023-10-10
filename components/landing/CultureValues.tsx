@@ -42,8 +42,7 @@ const valuesData = [
 
 const CultureValues: React.FC = () => {
     return (
-        <div className="mx-[10rem] mb-[10rem]" id="values">
-            <h1 className=" text-center font-bold mb-[4rem] text-5xl md:text-6xl lg:text-7xl">My Culture & Values</h1>
+        <div className="mx-[10rem] " id="values">
             <div className="flex flex-col xl:flex-row h-[110vh] overflow-hidden">
                 <div className="bg-yellow-300 w-full xl:w-1/2 flex flex-col items-center justify-center p-8">
                     <h1 className="text-4xl text-center md:text-6xl font-bold mb-8">What I Value</h1>
