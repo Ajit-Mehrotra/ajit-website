@@ -6,9 +6,7 @@ import Experience from '../components/landing/Experience'
 import Arrow from '../components/Arrow'
 import Takeaways from '../components/landing/Takeaways'
 import CultureValues from '../components/landing/CultureValues'
-import HobbiesSection from '../components/me/Hobbies'
 import ContactMe from '../components/landing/ContactMe'
-import LinkComponent from '../components/LinkComponent'
 
 
 

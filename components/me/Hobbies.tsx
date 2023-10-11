@@ -45,7 +45,7 @@ const hobbies: Hobby[] = [
 
 const HobbiesSection: React.FC = () => {
     return (
-        <div className=" bg-yellow-300 py-[4rem] w-full  " id='hobbies'>
+        <div className="  py-[4rem] w-full  " id='hobbies'>
             <h1 className=" text-center font-bold mb-6 text-5xl md:text-6xl lg:text-7xl ">My Hobbies</h1>
             <p className="mt-4 text-center ">How I use my time when not working. Check out my hobbies below! I&apos;m also learning crocheting.  </p>
             <div className="flex-col space-y-20">

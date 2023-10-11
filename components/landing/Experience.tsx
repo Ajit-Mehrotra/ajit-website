@@ -159,15 +159,15 @@ function Experience() {
                     <ExperienceList experiences={projectExperiences} />
                 </div>
             </div>
-            <div className=" w-full mx-auto p-8 flex flex-rowmd:space-y-0 md:space-x-8  transition-all duration-300">
+            <div className=" w-full mx-auto px-8 flex flex-rowmd:space-y-0 md:space-x-8  transition-all duration-300">
 
                 <div className="group w-full hover:bg-gray-200 transition-all duration-300 rounded-lg ">
                     <h2 className="text-2xl font-light uppercase mb-6 text-center group-hover:font-bold transition-all duration-300">Other Experience</h2>
                     <ExperienceList experiences={otherExperiences} />
                 </div>
             </div>
-            <div className="p-8 ">
-                <div className="text-2xl font-light mb-4 pl-8">Tech Skills: <span className="inline-block text-sm"> Python, Java, SQL, JavaScript, TypeScript, React.js, Next.js, Node.js, Tailwind CSS </span></div>
+            <div className="">
+                <div className="text-2xl font-light mb-4 pl-8">Tech Skills: <span className="inline-block text-sm"> Python, Java, SQL, JavaScript, TypeScript, PHP, React.js, Next.js, Node.js, Tailwind CSS </span></div>
                 <div className="text-2xl font-light mb-4 pl-8">Leadership Skills: <span className="inline-block text-sm"> Critical and Strategic Thinking, Inclusivity, Communication, Adaptability, Agile Methodologies, Listening </span></div>
             </div>
 
