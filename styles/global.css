@@ -70,9 +70,6 @@ html{
   scroll-behavior: smooth; 
 }
 
-#gaming:hover #gaming-text {
-  color: rgb(239 68 68);
-}
 
 #gaming:hover .card {
   background-color: #2d2d2d; /* Or any dark color of your choice */
@@ -80,6 +77,29 @@ html{
   transition-duration: 300ms;
 }
 
+#shows:hover .card {
+  background-color: #2d2d2d; /* Or any dark color of your choice */
+  color: #ffffff; /* White text color */
+  transition-duration: 300ms;
+}
+#music:hover .card {
+  background-color: #2d2d2d; /* Or any dark color of your choice */
+  color: #ffffff; /* White text color */
+  transition-duration: 300ms;
+}
+#builds:hover .card {
+  background-color: #2d2d2d; /* Or any dark color of your choice */
+  color: #ffffff; /* White text color */
+  transition-duration: 300ms;
+}
+#food:hover .card {
+  background-color: #2d2d2d; /* Or any dark color of your choice */
+  color: #ffffff; /* White text color */
+  transition-duration: 300ms;
+}
 
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
 
 

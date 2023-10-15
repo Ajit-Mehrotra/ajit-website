@@ -35,13 +35,32 @@ export default function Home() {
         <CultureValues />
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
 
+
         <a
           href="/Me"
           target="_blank"
           className={`link bg-gray-200 text-black transition duration-300 hover:bg-yellow-200 hover:font-bold 1 `}
         >
-          <h1 className=' p-4 text-xl font-light '>Check out my hobbies and interests!</h1>
+          <h1 className=' p-4 text-xl font-light '>Check out all my hobbies and interests!</h1>
         </a>
+
+        <div>
+
+
+          {/* <h3 className='text-sm md:text-2xl lg:text-3xl text-center p-4 '>
+            <a className="link transition duration-300  hover:text-red-500" href="/Me#gaming"> GAMING </a>
+            
+            <a className="link transition duration-300  hover:text-red-500" href="/Me#shows"> SHOWS </a>
+            
+            <a className="link transition duration-300  hover:text-red-500" href="/Me#music"> MUSIC </a>
+            
+            <a className="link transition duration-300  hover:text-red-500" href="/Me#builds"> BUILDS </a>
+            
+            <a className="link transition duration-300  hover:text-red-500" href="/Me#food"> FOOD </a>
+          </h3> */}
+
+          {/* <h1 className=' text-xl font-bold sm:text-4xl md:text-6xl lg:text-7xl text-center '>my <h1 className="inline-block text-red-500">stats</h1></h1> */}
+        </div>
         <Arrow padding="py-[2rem]" color="text-gray-400" width={2} />
         <ContactMe />
       </main>
