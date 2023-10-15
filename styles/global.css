@@ -8,6 +8,13 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+div{
+  scroll-margin-top: 4rem;
+}
+section{
+  scroll-margin-top: 10rem;
+}
+
 
 ::-webkit-scrollbar {
   -webkit-appearance: none;
@@ -58,5 +65,21 @@
 body {
   color: rgb(var(--foreground-rgb));
   
- 
 }
+html{
+  scroll-behavior: smooth; 
+}
+
+#gaming:hover #gaming-text {
+  color: rgb(239 68 68);
+}
+
+#gaming:hover .card {
+  background-color: #2d2d2d; /* Or any dark color of your choice */
+  color: #ffffff; /* White text color */
+  transition-duration: 300ms;
+}
+
+
+
+

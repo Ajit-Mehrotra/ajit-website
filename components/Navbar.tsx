@@ -22,16 +22,16 @@ function Navbar() {
                             <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/#experience">
                                 Experience
                             </Link>
-                            <Link href="#takeaways" className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300">
+                            <Link href="/Takeaways" className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300">
                                 Takeaways
                             </Link>
-                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="#values">
+                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/#values">
                                 Values
                             </Link>
-                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="Me">
+                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/Me">
                                 Hobbies
                             </Link>
-                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="#contact">
+                            <Link className="py-4 px-2 text-gray-500 border-b-4 hover:border-gray-600 transition duration-300" href="/#contact">
                                 Contact
                             </Link>
                         </div>

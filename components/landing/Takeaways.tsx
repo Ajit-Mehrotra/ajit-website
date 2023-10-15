@@ -6,8 +6,8 @@ import LinkComponent from "../LinkComponent";
 
 const takeaways: String[] = [
     "Collective vision drives innovation",
-    "Trust, inclusiveness, and joy builds a team",
-    "Respect is earned through actions",
+    "Trust builds inclusivity & happiness in teams",
+    "Good leaders earn respect",
     "Mistakes create opportunities",
     "The \"right\" answer is not always the best answer",
     "Celebrate small victories",

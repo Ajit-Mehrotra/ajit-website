@@ -145,7 +145,14 @@ function Experience() {
         <div id='experience'>
             <h1 className=" text-center font-bold mb-6 text-5xl md:text-6xl lg:text-7xl">My Experience</h1>
             <div className="flex items-center justify-center">
-                <LinkComponent className="inline-flex justify-center" href={"#tech-skills"}>Jump to Tech Skills</LinkComponent>
+
+                <a
+                    href={"#tech-skills"}
+                    className={`link bg-gray-200 text-black transition duration-300 hover:bg-yellow-200 1 inline-flex justify-center`}
+                >
+                    Jump to Tech Skills
+                </a>
+
             </div>
 
             <div className=" w-full mx-auto p-8 flex flex-col xl:flex-row justify-around space-y-8 md:space-y-0 md:space-x-8  transition-all duration-300">
@@ -179,7 +186,7 @@ function Experience() {
                     <h1 className="text-lg "> <span className="font-bold"> Programming Languages/Database: </span>Python, Java, JavaScript, TypeScript, PHP, HTML/CSS, SQL, MYSQL</h1>
                     <h1 className="text-lg "> <span className="font-bold">Frameworks/Libraries: </span>Node.js, Express.js, Next.js, Tailwind CSS, NumPy, Pandas, Matplotlib, Scikit-learn</h1>
                     <h1 className="text-lg "> <span className="font-bold"> Other Tools: </span>Git, Figma</h1>
-                    <h1 className="text-lg"> <span className="font-bold"> Leadership Skills: </span>Critical and Strategic Thinking, Inclusivity, Communication, Adaptability, Agile Methodologies, Listening</h1>
+                    <h1 className="text-lg"> <span className="font-bold"> Team Strengths: </span>Inclusivity, Communication, Critical and Strategic Thinking, Adaptability, Listening,Agile Methodologies </h1>
                 </div>
             </section>
 

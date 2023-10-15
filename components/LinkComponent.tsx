@@ -2,6 +2,7 @@ interface LinkComponentProps {
     href: string;
     children: React.ReactNode;
     className?: string;
+    
 }
 
 function LinkComponent({ href, className, children }: LinkComponentProps) {
