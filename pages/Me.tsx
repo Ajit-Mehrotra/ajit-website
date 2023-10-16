@@ -13,32 +13,32 @@ import { AccordianObj } from "../components/me/CardAccordian";
 const games: AccordianObj[] = [
     {
         title: 'Rocket League',
-        subtitle: '2000+',
-        description: `Champion 3`,
+        subtitle: '2000+ hours',
+        description: `Peak Rank: Champion 3`,
         imageUrl: "/rocket-league.jpeg",
     },
     {
         title: 'Apex Legends',
-        subtitle: '500+',
-        description: `Diamond`,
+        subtitle: '500+ hours',
+        description: `Peak Rank: Diamond`,
         imageUrl: "/apex.jpg",
     },
     {
         title: 'CSGO',
-        subtitle: '500+',
-        description: `Gold Nova`,
+        subtitle: '500+ hours',
+        description: `Peak Rank: Gold Nova`,
         imageUrl: "/csgo.jpg",
     },
     {
         title: 'Fortnite',
-        subtitle: '1000+',
-        description: `John Wick`,
+        subtitle: '1000+ hours',
+        description: `Peak Rank: John Wick`,
         imageUrl: "/fortnite.jpg",
     },
     {
         title: 'Valorant',
-        subtitle: '200+',
-        description: `Silver`,
+        subtitle: '200+ hours',
+        description: `Peak Rank: Silver`,
         imageUrl: "/valorant.jpg",
     },
 ];
@@ -189,11 +189,11 @@ function Me() {
             <Navbar />
 
 
-            <CardAccordian items={games} idName='gaming' hoverBgColor='bg-stone-900' hoverTextColor='text-red-500' sectionTitle="GAMING" />
-            <CardAccordian items={shows} idName='shows' hoverBgColor='bg-yellow-500' hoverTextColor='text-violet-700' sectionTitle="SHOWS/MOVIES" />
-            <CardAccordian items={music} idName='music' hoverBgColor='bg-green-500' hoverTextColor='text-white' sectionTitle="MUSIC" />
-            <CardAccordian items={builds} idName='builds' hoverBgColor='bg-blue-900' hoverTextColor='text-sky-300' sectionTitle="BUILDS (in works)" />
-            <CardAccordian items={food} idName='food' hoverBgColor='bg-rose-500' hoverTextColor='text-yellow-200' sectionTitle="FOOD (in works)" />
+            <CardAccordian items={games} idName='gaming' className='hover:bg-stone-900 hover:text-red-500' sectionTitle="GAMING" />
+            <CardAccordian items={shows} idName='shows' className='hover:bg-yellow-500 hover:text-violet-700' sectionTitle="SHOWS/MOVIES" />
+            <CardAccordian items={music} idName='music' className='hover:bg-green-500 hover:text-white' sectionTitle="MUSIC" />
+            <CardAccordian items={builds} idName='builds' className='hover:bg-blue-900 hover:text-sky-300' sectionTitle="BUILDS (in works)" />
+            <CardAccordian items={food} idName='food' className='hover:bg-rose-500 hover:text-yellow-200' sectionTitle="FOOD (in works)" />
 
         </div>
     );

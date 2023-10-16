@@ -17,12 +17,11 @@ export interface AccordianObj {
 interface CardAccordianProps {
     items: AccordianObj[];
     idName: string;
-    hoverTextColor: string;
-    hoverBgColor: string;
+    className: string;
     sectionTitle: string;
 }
 
-const CardAccordian: React.FC<CardAccordianProps> = ({ items, sectionTitle, idName, hoverBgColor, hoverTextColor }) => {
+const CardAccordian: React.FC<CardAccordianProps> = ({ items, sectionTitle, idName, className }) => {
     const [isExpanded, setIsExpanded] = useState(false);
 
     const toggleGamesList = () => {
@@ -30,7 +29,7 @@ const CardAccordian: React.FC<CardAccordianProps> = ({ items, sectionTitle, idNa
     };
 
     return (
-        <div className={`w-full hover:${hoverBgColor} duration-300 p-4 hover:${hoverTextColor}`} id={idName} onClick={toggleGamesList}>
+        <div className={`w-full duration-300 p-4 ${className}`} id={idName} onClick={toggleGamesList}>
             <h1
                 className='text-xl font-bold sm:text-4xl md:text-6xl lg:text-7xl text-center p-4 '
 

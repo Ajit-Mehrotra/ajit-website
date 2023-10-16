@@ -78,22 +78,22 @@ html{
 }
 
 #shows:hover .card {
-  background-color: #2d2d2d; /* Or any dark color of your choice */
+  background-color: rgb(66 32 6); /* Or any dark color of your choice */
   color: #ffffff; /* White text color */
   transition-duration: 300ms;
 }
 #music:hover .card {
-  background-color: #2d2d2d; /* Or any dark color of your choice */
+  background-color: rgb(5 46 22); /* Or any dark color of your choice */
   color: #ffffff; /* White text color */
   transition-duration: 300ms;
 }
 #builds:hover .card {
-  background-color: #2d2d2d; /* Or any dark color of your choice */
+  background-color: rgb(23 37 84); /* Or any dark color of your choice */
   color: #ffffff; /* White text color */
   transition-duration: 300ms;
 }
 #food:hover .card {
-  background-color: #2d2d2d; /* Or any dark color of your choice */
+  background-color: rgb(136 19 55); /* Or any dark color of your choice */
   color: #ffffff; /* White text color */
   transition-duration: 300ms;
 }
