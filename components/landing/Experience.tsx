@@ -182,7 +182,9 @@ function Experience() {
 
             {/* scroll-mt-[4rem] --> fixes issue with scrolling */}
             <section className=" flex items-center justify-center pt-8 mb-4 pl-8 scroll-mt-[4rem]" id="tech-skills" >
+
                 <div className="w-full"> {/* In case I want to change*/}
+                    <h1 className=" text-center font-bold mb-6 text-3xl md:text-2xl lg:text-5xl">Tech Skills</h1>
                     <h1 className="text-lg "> <span className="font-bold"> Programming Languages/Database: </span>Python, Java, JavaScript, TypeScript, PHP, HTML/CSS, SQL, MYSQL</h1>
                     <h1 className="text-lg "> <span className="font-bold">Frameworks/Libraries: </span>Node.js, Express.js, Next.js, Tailwind CSS, NumPy, Pandas, Matplotlib, Scikit-learn</h1>
                     <h1 className="text-lg "> <span className="font-bold"> Other Tools: </span>Git, Figma</h1>

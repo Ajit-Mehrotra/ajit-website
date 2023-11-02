@@ -6,15 +6,15 @@ import LinkComponent from "../LinkComponent";
 
 const takeaways: String[] = [
     "Collective vision drives innovation",
-    "Trust builds inclusivity & happiness in teams",
+    "Trust, inclusivity, & happiness builds great teams",
     "Good leaders earn respect",
     "Mistakes create opportunities",
     "The \"right\" answer is not always the best answer",
-    "Celebrate small victories",
-    "Opt for simplicity",
+    "Celebrate small wins more often by doing more and planning less",
+    "Simplicity is key",
     "Add a bit of yourself to everything you do",
     "Learn what not to do",
-    "Miscommunication and lack of communication causes most problems.",
+    "Miscommunication and lack of communication causes most major problems",
 
 ];
 
@@ -28,7 +28,7 @@ function Takeaways() {
                     {takeaways.map((takeaway, index) => (
                         <div key={index}>
                             <li >
-                                <LinkComponent href={`/Takeaways#${index}`}>{takeaway}</LinkComponent>
+                                <LinkComponent href={`/Takeaways#${index + 1}`}>{takeaway}</LinkComponent>
                             </li>
 
                         </div>
