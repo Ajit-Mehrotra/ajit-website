@@ -1,4 +1,5 @@
 
+'use client';
 import LinkComponent from "../components/LinkComponent";
 
 import Image from 'next/image'

@@ -185,8 +185,8 @@ function Experience() {
 
                 <div className="w-full"> {/* In case I want to change*/}
                     <h1 className=" text-center font-bold mb-6 text-3xl md:text-2xl lg:text-5xl">Tech Skills</h1>
-                    <h1 className="text-lg "> <span className="font-bold"> Programming Languages/Database: </span>Python, Java, JavaScript, TypeScript, PHP, HTML/CSS, SQL, MYSQL</h1>
-                    <h1 className="text-lg "> <span className="font-bold">Frameworks/Libraries: </span>Node.js, Express.js, Next.js, Tailwind CSS, NumPy, Pandas, Matplotlib, Scikit-learn</h1>
+                    <h1 className="text-lg "> <span className="font-bold"> Programming Languages/Database: </span>Python, Java, JavaScript, TypeScript, PHP, HTML/CSS, SQL, MYSQL, PostgreSQL</h1>
+                    <h1 className="text-lg "> <span className="font-bold">Frameworks/Libraries: </span>Node.js, Express.js, React.js, Next.js, Tailwind CSS, NumPy, Pandas, Matplotlib, Scikit-learn</h1>
                     <h1 className="text-lg "> <span className="font-bold"> Other Tools: </span>Git, Figma</h1>
                     <h1 className="text-lg"> <span className="font-bold"> Team Strengths: </span>Inclusivity, Communication, Critical and Strategic Thinking, Adaptability, Listening,Agile Methodologies </h1>
                 </div>

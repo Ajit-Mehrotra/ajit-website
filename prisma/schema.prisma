@@ -7,64 +7,54 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model categories {
-  id         Int       @id @default(autoincrement())
-  name       String    @unique @db.VarChar(255)
-  created_at DateTime? @default(now()) @db.Timestamp(6)
-  updated_at DateTime? @default(now()) @db.Timestamp(6)
+// reminder to add hashing and shit (not in db but through the ts)
+model users {
+  id         String     @id @default(uuid())
+  username   String
+  email      String     @unique
+  password   String
+  created_at DateTime?  @default(now())
+  updated_at DateTime?  @updatedAt
+  comments   comments[]
   posts      posts[]
 }
 
+// should also implement comment functionality later
 model comments {
-  id         Int       @id @default(autoincrement())
+  id         String    @id @default(uuid())
   content    String
-  user_id    Int?
-  post_id    Int?
-  created_at DateTime? @default(now()) @db.Timestamp(6)
-  updated_at DateTime? @default(now()) @db.Timestamp(6)
-  posts      posts?    @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-  users      users?    @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-}
+  created_at DateTime? @default(now())
+  updated_at DateTime? @updatedAt
 
-model post_tags {
-  post_id Int
-  tag_id  Int
-  posts   posts @relation(fields: [post_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
-  tags    tags  @relation(fields: [tag_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  author_id String?
+  author    users?  @relation(fields: [author_id], references: [id])
 
-  @@id([post_id, tag_id])
+  post_id String?
+  posts   posts?  @relation(fields: [post_id], references: [id])
 }
 
 model posts {
-  id              Int         @id @default(autoincrement())
-  title           String      @db.VarChar(255)
+  id              String    @id @default(uuid())
+  title           String
+  subtitle        String
   content         String
-  user_id         Int?
-  category_id     Int?
   sentiment_score Float?
-  created_at      DateTime?   @default(now()) @db.Timestamp(6)
-  updated_at      DateTime?   @default(now()) @db.Timestamp(6)
-  comments        comments[]
-  post_tags       post_tags[]
-  categories      categories? @relation(fields: [category_id], references: [id], onUpdate: NoAction)
-  users           users?      @relation(fields: [user_id], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  created_at      DateTime? @default(now())
+  updated_at      DateTime? @updatedAt
+
+  comments comments[]
+
+  category_id String?
+  categories  categories? @relation(fields: [category_id], references: [id])
+
+  author_id String
+  users     users? @relation(fields: [author_id], references: [id])
 }
 
-model tags {
-  id         Int         @id @default(autoincrement())
-  name       String      @unique @db.VarChar(255)
-  created_at DateTime?   @default(now()) @db.Timestamp(6)
-  updated_at DateTime?   @default(now()) @db.Timestamp(6)
-  post_tags  post_tags[]
-}
-
-model users {
-  id         Int        @id @default(autoincrement())
-  username   String     @unique @db.VarChar(255)
-  email      String     @unique @db.VarChar(255)
-  password   String
-  created_at DateTime?  @default(now()) @db.Timestamp(6)
-  updated_at DateTime?  @default(now()) @db.Timestamp(6)
-  comments   comments[]
+model categories {
+  id         String    @id @default(uuid())
+  name       String    @unique
+  created_at DateTime? @default(now())
+  updated_at DateTime? @updatedAt
   posts      posts[]
 }
