@@ -19,16 +19,15 @@ function Description() {
             <h1 className=' text-xl font-bold sm:text-4xl md:text-6xl lg:text-7xl text-center '>AJIT MEHROTRA</h1>
 
             <p className="px-[4rem] md:px-[6rem] lg:px-[20rem] sm:pt-[1rem] py-[2rem]">
-                I&apos;m a senior at{" "}
+                I&apos;m a recent graudate from {" "}
                 <LinkComponent href="https://www.bentley.edu/">
                     Bentley University
                 </LinkComponent>{" "}
-                with a background in application development and leadership and am
-                currently studying abroad at{" "}
+                with a background in application development and leadership. Fun fact about me is that I studyied abroad at{" "}
                 <LinkComponent href="https://www.bentley.edu/">
                     Nanyang Technological University (NTU)
                 </LinkComponent>{" "}
-                in Singpaore.
+                in Singpaore in Fall 2023.
                 <br />
                 <br />
                 In the past, I&apos;ve worked at 3 startups. One for a software development
