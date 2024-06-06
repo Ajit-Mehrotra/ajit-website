@@ -23,7 +23,7 @@ function Description() {
                 <LinkComponent href="https://www.bentley.edu/">
                     Bentley University
                 </LinkComponent>{" "}
-                with a background in application development and leadership. Fun fact about me is that I studyied abroad at{" "}
+                with a background in application development and leadership. Fun fact about me is that I studied abroad at{" "}
                 <LinkComponent href="https://www.bentley.edu/">
                     Nanyang Technological University (NTU)
                 </LinkComponent>{" "}
